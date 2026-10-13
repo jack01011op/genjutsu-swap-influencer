@@ -1,0 +1,25 @@
+{
+  "project": "NN_slug",
+  "path": "swap",
+  "source": {"url": "", "start_s": 0, "end_s": 0, "scene_cuts_in_range": [], "main_person_hidden_s": []},
+  "main_person": "who in the video gets replaced: position, clothes, action",
+  "keep_unchanged": ["everyone else", "background", "camera movement"],
+  "character": {
+    "type": "real_person_photos | generated_character",
+    "consent": "yes - user said ...",
+    "identity_desc": "face, hair, beard, eyes, skin tone, in plain words",
+    "photos_original": [],
+    "photos_clean": []
+  },
+  "elements": [
+    {"element": "face", "source": "R", "notes": ""},
+    {"element": "kippah", "source": "remove", "notes": "in R photos 2+3 - edited out"}
+  ],
+  "audio": "keep",
+  "lip_sync": "follow original mouth",
+  "resolution": "1080p",
+  "extra_prompt": "",
+  "media_ids": {"video": "", "images": []},
+  "test_run": {"wanted": null, "job_id": "", "credits": 0, "qa": ""},
+  "final_run": {"job_id": "", "credits": 0, "result_url": "", "qa": ""}
+}
